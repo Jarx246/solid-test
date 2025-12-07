@@ -1,10 +1,10 @@
 {
   "imports": {
-    "~/": "./src/",
+    "~/": "./src/"
   },
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-  },
+    "jsxImportSource": "solid-js"
+  }
 }

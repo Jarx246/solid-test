@@ -1,5 +1,6 @@
 /// <reference lib="deno.ns" />
 import { defineConfig } from "@solidjs/start/config";
+import process from "node:process";
 
 export default defineConfig({
   server: {
