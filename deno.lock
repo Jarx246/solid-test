@@ -6,6 +6,8 @@
     "npm:@solidjs/start@^1.1.0": "1.1.4_vinxi@0.5.7__@babel+core@7.28.5_seroval@1.3.2_solid-js@1.9.10__seroval@1.3.2",
     "npm:solid-js@^1.9.5": "1.9.10_seroval@1.3.2",
     "npm:solid-start-static@~0.3.11": "0.3.11_solid-start@0.3.11__@solidjs+meta@0.29.4___solid-js@1.9.10____seroval@1.3.2__@solidjs+router@0.15.3___solid-js@1.9.10____seroval@1.3.2__solid-js@1.9.10___seroval@1.3.2__solid-start-static@0.3.11__vite@6.4.1___picomatch@4.0.3___terser@5.44.1__@babel+core@7.28.5__esbuild@0.17.19__rollup@3.29.5__terser@5.44.1_vite@6.4.1__picomatch@4.0.3__terser@5.44.1_rollup@3.29.5_@solidjs+meta@0.29.4__solid-js@1.9.10___seroval@1.3.2_@solidjs+router@0.15.3__solid-js@1.9.10___seroval@1.3.2_solid-js@1.9.10__seroval@1.3.2",
+    "npm:solid-styled-jsx@~0.27.1": "0.27.1_solid-js@1.9.10__seroval@1.3.2_styled-jsx@5.1.7__react@19.2.3",
+    "npm:styled-jsx@^5.1.7": "5.1.7_react@19.2.3",
     "npm:vinxi@~0.5.7": "0.5.7_@babel+core@7.28.5"
   },
   "npm": {
@@ -2002,6 +2004,9 @@
         "@babel/helper-define-polyfill-provider"
       ]
     },
+    "babel-plugin-transform-rename-import@2.3.0": {
+      "integrity": "sha512-dPgJoT57XC0PqSnLgl2FwNvxFrWlspatX2dkk7yjKQj5HHGw071vAcOf+hqW8ClqcBDMvEbm6mevn5yHAD8mlQ=="
+    },
     "babel-preset-solid@1.9.10_@babel+core@7.28.5_solid-js@1.9.10__seroval@1.3.2": {
       "integrity": "sha512-HCelrgua/Y+kqO8RyL04JBWS/cVdrtUv/h45GntgQY+cJl4eBcKkCDV3TdMjtKx1nXwRaR9QXslM/Npm1dxdZQ==",
       "dependencies": [
@@ -2173,6 +2178,9 @@
     },
     "cli-boxes@3.0.0": {
       "integrity": "sha512-/lzGpEWL/8PfI0BmBOPRwp0c/wFNX1RdUML3jK/RcSBA9T8mZDdQpqYBKtCFTOfQbwPqWEOpjqW+Fnayc0969g=="
+    },
+    "client-only@0.0.1": {
+      "integrity": "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="
     },
     "clipboardy@4.0.0": {
       "integrity": "sha512-5mOlNS0mhX0707P2I0aZ2V/cmHUEO/fL7VFLqszkhUsxt7RwnmrInf/eEQKlf5GzvYeHIjT+Ov1HRfNmymlG0w==",
@@ -3621,6 +3629,9 @@
         "destr"
       ]
     },
+    "react@19.2.3": {
+      "integrity": "sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA=="
+    },
     "readable-stream@2.3.8": {
       "integrity": "sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==",
       "dependencies": [
@@ -4080,6 +4091,14 @@
       ],
       "bin": true
     },
+    "solid-styled-jsx@0.27.1_solid-js@1.9.10__seroval@1.3.2_styled-jsx@5.1.7__react@19.2.3": {
+      "integrity": "sha512-s/BidA5ii4cGuWbk4cB3qajXkZuBfqaoQPhw0Exzbc8Y3fqy2g0qshmJyop0iuSZgJ8FpJ9UeYVLhRF0GZbVpA==",
+      "dependencies": [
+        "babel-plugin-transform-rename-import",
+        "solid-js",
+        "styled-jsx"
+      ]
+    },
     "solid-use@0.9.1_solid-js@1.9.10__seroval@1.3.2": {
       "integrity": "sha512-UwvXDVPlrrbj/9ewG9ys5uL2IO4jSiwys2KPzK4zsnAcmEl7iDafZWW1Mo4BSEWOmQCGK6IvpmGHo1aou8iOFw==",
       "dependencies": [
@@ -4193,6 +4212,13 @@
       "integrity": "sha512-8r3mkIM/2+PpjHoOtiAW8Rg3jJLHaV7xPwG+YRGrv6FP0wwk/toTpATxWYOW0BKdWwl82VT2tFYi5DlROa0Mxg==",
       "dependencies": [
         "js-tokens@9.0.1"
+      ]
+    },
+    "styled-jsx@5.1.7_react@19.2.3": {
+      "integrity": "sha512-HPLmEIYprxCeWDMLYiaaAhsV3yGfIlCqzuVOybE6fjF3SUJmH67nCoMDO+nAvHNHo46OfvpCNu4Rcue82dMNFg==",
+      "dependencies": [
+        "client-only",
+        "react"
       ]
     },
     "supports-color@10.2.2": {
@@ -4792,6 +4818,8 @@
         "npm:@solidjs/start@^1.1.0",
         "npm:solid-js@^1.9.5",
         "npm:solid-start-static@~0.3.11",
+        "npm:solid-styled-jsx@~0.27.1",
+        "npm:styled-jsx@^5.1.7",
         "npm:vinxi@~0.5.7"
       ]
     }
